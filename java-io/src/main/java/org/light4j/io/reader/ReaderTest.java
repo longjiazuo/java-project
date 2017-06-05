@@ -1,4 +1,4 @@
-package org.light4j.io.inputStream;
+package org.light4j.io.reader;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
