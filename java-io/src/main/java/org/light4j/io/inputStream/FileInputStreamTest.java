@@ -25,7 +25,6 @@ public class FileInputStreamTest {
 		// 反斜杠替换掉"."
 		String currentClass = classPath.replace(".", "\\") + ".java";
 
-		
 		try 
 		(
 				// 新建文件字节输入流
