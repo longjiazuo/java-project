@@ -29,7 +29,7 @@ public class PrintStreamTest {
 		{
 			ps.println("忆高考");
 			ps.println("年年忆今朝，忙忙赶国考；");
-			ps.println("不成真秀才，只图纸逍遥。");
+			ps.println("不成真秀才，只图自逍遥。");
 			System.out.println("操作结束....");
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();

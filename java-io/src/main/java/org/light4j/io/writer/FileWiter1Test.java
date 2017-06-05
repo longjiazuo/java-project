@@ -22,7 +22,7 @@ public class FileWiter1Test {
 		{
 			fw.write("忆高考\r\n");
 			fw.write("年年忆今朝，忙忙赶国考；\r\n");
-			fw.write("不成真秀才，只图纸逍遥。\r\n");
+			fw.write("不成真秀才，只图自逍遥。\r\n");
 			System.out.println("操作结束....");
 		} catch (IOException e) {
 			e.printStackTrace();
