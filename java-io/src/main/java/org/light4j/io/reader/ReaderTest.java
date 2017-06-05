@@ -23,9 +23,8 @@ public class ReaderTest {
 		String currentClass = classPath.replace(".", "\\") + ".java";
 
 		// 读取当前类的内容
-		try {
-			@SuppressWarnings("resource")
-			FileReader fr = new FileReader(currentClass);
+		try (FileReader fr = new FileReader(currentClass)) 
+		{
 			char[] cbuff = new char[1024];
 			int hasRead = 0;
 			while ((hasRead = fr.read(cbuff)) > 0) {
