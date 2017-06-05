@@ -6,26 +6,33 @@ import java.io.IOException;
 
 /**
  * FileInputStream测试
+ * <p>
+ * 使用FileInputStream流来读取自身内容
+ * </p>
  * 
  * @author longjiazuo
  * 
  */
 public class FileInputStreamTest {
 	public static void main(String[] args) {
-		try {
-			// 获取工作目录
-			String workDir = System.getProperty("user.dir");
-			// 获取类名
-			String className = Thread.currentThread().getStackTrace()[1]
-					.getClassName();
-			// 类的路径
-			String classPath = workDir + "\\src\\main\\java\\" + className;
-			// 反斜杠替换掉"."
-			String currentClass = classPath.replace(".", "\\") + ".java";
+		// 获取工作目录
+		String workDir = System.getProperty("user.dir");
+		// 获取类名
+		String className = Thread.currentThread().getStackTrace()[1]
+				.getClassName();
+		// 类的路径
+		String classPath = workDir + "\\src\\main\\java\\" + className;
+		// 反斜杠替换掉"."
+		String currentClass = classPath.replace(".", "\\") + ".java";
 
-			// 读取当前类的内容
-			@SuppressWarnings("resource")
-			FileInputStream fis = new FileInputStream(currentClass);
+		
+		try 
+		(
+				// 新建文件字节输入流
+				FileInputStream fis = new FileInputStream(currentClass);
+		) 
+		{
+			// 定义一个1024字节的数组
 			byte[] buff = new byte[1024];
 			int hasRead = 0;
 			while ((hasRead = fis.read(buff)) > 0) {
