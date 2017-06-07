@@ -1,2 +1,2 @@
-# crazy-java-project
-crazy-java-project
+# j2se-project
+j2se-project
