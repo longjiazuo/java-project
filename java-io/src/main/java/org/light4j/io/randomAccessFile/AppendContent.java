@@ -16,11 +16,11 @@ public class AppendContent {
 		try 
 		(
 			//创建RandomAccessFile流对象，并指定访问模式为读写模式rw
-			RandomAccessFile raf = new RandomAccessFile("testFile\\append.txt", "rw");
+			RandomAccessFile raf = new RandomAccessFile("testFile\\append.txt", "rw"); //①
 		) 
 		{
 			//记录指针移动到文件末尾
-			raf.seek(raf.length());
+			raf.seek(raf.length()); //②
 			raf.write("\r\n忆高考".getBytes());
 			raf.write("\r\n年年忆今朝，茫茫赶国考；".getBytes());
 			raf.write("\r\n不成真秀才，只图自逍遥。".getBytes());
