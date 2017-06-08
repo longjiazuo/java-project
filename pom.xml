@@ -9,5 +9,6 @@
 	<modules>
 		<module>java-io</module>
     <module>java-innerClass</module>
+    <module>java-nio</module>
   </modules>
 </project>

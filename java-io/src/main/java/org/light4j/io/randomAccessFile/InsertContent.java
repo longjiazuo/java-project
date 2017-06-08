@@ -29,7 +29,7 @@ import java.io.RandomAccessFile;
 public class InsertContent {
 	public static void main(String[] args) {
 		try {
-			insert("insert.txt", 10, "高考来了");
+			insert("testFile\\insert.txt", 10, "高考来了");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
@@ -47,7 +47,7 @@ public class InsertContent {
 			// 以临时文件创建文件输出流
 			FileOutputStream fos = new FileOutputStream(tempFile);
 			//创建RandomAccessFile流对象，并指定文件访问模式为读写rw
-			RandomAccessFile raf = new RandomAccessFile("insert.txt", "rw");
+			RandomAccessFile raf = new RandomAccessFile(fileName, "rw");
 		)
 		{
 			//移动文件指针
