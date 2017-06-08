@@ -16,7 +16,7 @@ public class AppendContent {
 		try 
 		(
 			//创建RandomAccessFile流对象，并指定访问模式为读写模式rw
-			RandomAccessFile raf = new RandomAccessFile("append.txt", "rw");
+			RandomAccessFile raf = new RandomAccessFile("testFile\\append.txt", "rw");
 		) 
 		{
 			//记录指针移动到文件末尾

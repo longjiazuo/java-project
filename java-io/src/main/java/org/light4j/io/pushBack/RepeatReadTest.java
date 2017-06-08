@@ -17,7 +17,7 @@ public class RepeatReadTest {
 		try 
 		(
 				// 创建字符输入流，读取pushback.txt的数据
-				FileReader fr = new FileReader("repeatRead.txt");
+				FileReader fr = new FileReader("testFile\\repeatRead.txt");
 				// 创建字符推回输入流，
 				PushbackReader pr = new PushbackReader(fr,12);
 		) 

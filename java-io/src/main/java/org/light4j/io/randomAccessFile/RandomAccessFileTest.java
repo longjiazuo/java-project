@@ -12,20 +12,11 @@ import java.io.RandomAccessFile;
  */
 public class RandomAccessFileTest {
 	public static void main(String[] args) {
-		// 获取工作目录
-		String workDir = System.getProperty("user.dir");
-		// 获取类名
-		String className = Thread.currentThread().getStackTrace()[1]
-				.getClassName();
-		// 类的路径
-		String classPath = workDir + "\\src\\main\\java\\" + className;
-		// 反斜杠替换掉"."
-		String currentClass = classPath.replace(".", "\\") + ".java";
 		
 		try
 		(
 			//创建RandomAccessFile流对象，并指定访问模式为只读模式r
-			RandomAccessFile raf = new RandomAccessFile(currentClass,"r");	
+			RandomAccessFile raf = new RandomAccessFile("testFile\\access.txt","r");	
 		) 
 		{
 			//获取RandomAccessFile对象记录的指针位置，初始位置为0
@@ -38,7 +29,7 @@ public class RandomAccessFileTest {
 			//循环读取数据
 			while((hasRead=raf.read(cbuff))>0){
 				//字节转换成字符并输出到控制台
-				System.out.println(new String(cbuff,0,hasRead));
+				System.out.println("读取的内容为："+new String(cbuff,0,hasRead));
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
