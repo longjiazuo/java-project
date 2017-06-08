@@ -10,5 +10,6 @@
 		<module>java-io</module>
     <module>java-innerClass</module>
     <module>java-nio</module>
+    <module>java-serialize</module>
   </modules>
 </project>
