@@ -37,7 +37,7 @@ public class CharsetTransform {
 			for (int i = 0; i < bbuff.limit(); i++) {
 				System.out.println(bbuff.get(i) + " ");
 			}
-			// 将字节序列转成字符序列并输出
+			// 将字节序列转成字符序列并输出，将ByteBuffer转成CharsetBuffer
 			System.out.println("字符是：" + decoder.decode(bbuff));
 		} catch (CharacterCodingException e) {
 			e.printStackTrace();
