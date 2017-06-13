@@ -13,5 +13,7 @@
     <module>java-serialize</module>
     <module>java-thread</module>
     <module>java-net</module>
+    <module>java-study-demo</module>
+    <module>j2se-study-sample</module>
   </modules>
 </project>
