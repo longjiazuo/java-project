@@ -15,5 +15,6 @@
     <module>java-net</module>
     <module>java-study-demo</module>
     <module>j2se-study-sample</module>
+    <module>java-exception</module>
   </modules>
 </project>
