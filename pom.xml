@@ -16,5 +16,6 @@
     <module>java-study-demo</module>
     <module>j2se-study-sample</module>
     <module>java-exception</module>
+    <module>java-annotation</module>
   </modules>
 </project>
