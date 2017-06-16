@@ -18,5 +18,6 @@
     <module>java-exception</module>
     <module>java-annotation</module>
     <module>java-classLoad</module>
+    <module>java-reflection</module>
   </modules>
 </project>
