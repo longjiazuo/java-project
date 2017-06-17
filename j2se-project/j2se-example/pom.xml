@@ -16,6 +16,6 @@
 	</properties>
 	<modules>
 		<module>j2se-innerClass</module>
-		<module>j2se-practice-example</module>
+		<module>j2se-practice</module>
 	</modules>
 </project>
