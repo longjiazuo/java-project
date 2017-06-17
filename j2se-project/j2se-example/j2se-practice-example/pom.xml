@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>org.light4j</groupId>
-		<artifactId>j2se-study-sample</artifactId>
+		<artifactId>j2se-example</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>j2se-practice-example</artifactId>
@@ -15,14 +15,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<dependencies>
-	<!-- kryo -->
+		<!-- kryo -->
 		<dependency>
 			<groupId>com.esotericsoftware</groupId>
 			<artifactId>kryo</artifactId>
 			<version>4.0.0</version>
 		</dependency>
 
-	<!-- hessian -->
+		<!-- hessian -->
 		<dependency>
 			<groupId>com.caucho</groupId>
 			<artifactId>hessian</artifactId>
