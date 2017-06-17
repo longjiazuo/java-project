@@ -15,4 +15,17 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
+	<modules>
+		<module>j2se-example</module>
+		<module>java-annotation</module>
+		<module>java-classLoad</module>
+		<module>java-exception</module>
+		<module>j2se-innerClass</module>
+		<module>j2se-io</module>
+		<module>j2se-net</module>
+		<module>j2se-nio</module>
+		<module>j2se-reflection</module>
+		<module>j2se-serialize</module>
+		<module>j2se-thread</module>
+	</modules>
 </project>
