@@ -8,10 +8,8 @@
 		<artifactId>j2se-example</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<groupId>org.light4j</groupId>
 	<artifactId>example-innerClass</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>j2se-innerClass</name>
+	<name>example-innerClass</name>
 	<url>http://blog.longjiazuo.com</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
