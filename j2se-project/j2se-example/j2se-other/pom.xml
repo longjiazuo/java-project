@@ -8,8 +8,8 @@
 		<artifactId>j2se-example</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>j2se-practice</artifactId>
-	<name>j2se-practice</name>
+	<artifactId>j2se-other</artifactId>
+	<name>j2se-other</name>
 	<url>http://blog.longjiazuo.com/</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
