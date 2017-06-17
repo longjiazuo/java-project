@@ -15,7 +15,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<modules>
-		<module>j2se-innerClass</module>
+		<module>example-innerClass</module>
 		<module>j2se-practice</module>
 	</modules>
 </project>
