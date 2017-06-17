@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.light4j</groupId>
-	<artifactId>j2se-project</artifactId>
+	<artifactId>java-project</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<url>http://blog.longjiazuo.com/</url>
 	<modules>
-		<module>java-io</module>
-    <module>java-innerClass</module>
-    <module>java-nio</module>
-    <module>java-serialize</module>
-    <module>java-thread</module>
-    <module>java-net</module>
-    <module>java-study-demo</module>
-    <module>j2se-study-sample</module>
-    <module>java-exception</module>
-    <module>java-annotation</module>
-    <module>java-classLoad</module>
-    <module>java-reflection</module>
-  </modules>
+		<module>j2se-project</module>
+	</modules>
 </project>
