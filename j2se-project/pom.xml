@@ -20,12 +20,12 @@
 		<module>java-annotation</module>
 		<module>java-classLoad</module>
 		<module>java-exception</module>
-		<module>j2se-innerClass</module>
-		<module>j2se-io</module>
-		<module>j2se-net</module>
-		<module>j2se-nio</module>
-		<module>j2se-reflection</module>
-		<module>j2se-serialize</module>
-		<module>j2se-thread</module>
+		<module>java-innerClass</module>
+		<module>java-io</module>
+		<module>java-net</module>
+		<module>java-nio</module>
+		<module>java-reflection</module>
+		<module>java-serialize</module>
+		<module>java-thread</module>
 	</modules>
 </project>
