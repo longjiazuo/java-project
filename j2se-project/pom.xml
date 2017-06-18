@@ -26,5 +26,6 @@
 		<module>java-serialize</module>
 		<module>java-thread</module>
     <module>java-genericity</module>
+    <module>java-enum</module>
   </modules>
 </project>
