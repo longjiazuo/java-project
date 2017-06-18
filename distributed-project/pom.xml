@@ -6,25 +6,13 @@
 		<artifactId>java-project</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>j2se-project</artifactId>
+	<artifactId>distributed-project</artifactId>
 	<packaging>pom</packaging>
-	<name>j2se-project</name>
 	<url>http://blog.longjiazuo.com/</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
-	<modules>
-		<module>j2se-example</module>
-		<module>java-annotation</module>
-		<module>java-classLoad</module>
-		<module>java-exception</module>
-		<module>java-innerClass</module>
-		<module>java-io</module>
-		<module>java-net</module>
-		<module>java-nio</module>
-		<module>java-reflection</module>
-		<module>java-serialize</module>
-		<module>java-thread</module>
-    <module>java-genericity</module>
+  <modules>
+    <module>chenkangxian-book</module>
   </modules>
 </project>
