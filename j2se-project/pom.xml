@@ -27,5 +27,6 @@
 		<module>java-thread</module>
     <module>java-genericity</module>
     <module>java-enum</module>
+    <module>java-tool</module>
   </modules>
 </project>
