@@ -9,5 +9,7 @@
 	<modules>
 		<module>j2se-project</module>
     <module>distributed-project</module>
+    <module>j2ee-project</module>
+    <module>consistency-hash</module>
   </modules>
 </project>
