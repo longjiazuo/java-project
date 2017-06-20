@@ -8,7 +8,7 @@ import java.util.TreeMap;
 /**
  * 带虚拟节点的一致性Hash算法
  * 
- * @author 五月的仓颉 http://www.cnblogs.com/xrq730/
+ * @author longjiazuo
  */
 public class ConsistentHashingWithVirtualNode {
 	/**

@@ -15,10 +15,10 @@ import java.util.TreeMap;
  */
 public class ConsistentHashing<M> {
 
-	// 虚拟节点
-	private TreeMap<Long, M> nodes;
 	// 真实机器节点
 	private List<M> machines;
+	// 虚拟节点
+	private TreeMap<Long, M> nodes;
 	// 每个机器节点关联的虚拟节点个数
 	private final int NODE_NUM = 100;
 
