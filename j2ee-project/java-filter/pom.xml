@@ -9,9 +9,19 @@
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 	<artifactId>java-filter</artifactId>
+	<packaging>war</packaging>
 	<name>java-filter</name>
 	<url>http://blog.longjiazuo.com/</url>
-	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
+	<dependencies>
+		<!-- servlet -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.0-b04</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>java-filter</finalName>
+	</build>
 </project>

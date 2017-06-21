@@ -3,11 +3,22 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title> »¶Ó­Ò³Ãæ </title>
+	<title>µÇÂ¼Ò³Ãæ</title>
 	<meta name="website" content="http://blog.longjiazuo.com/" />
 </head>
 <body>
-<h3>»¶Ó­µÇÂ¼</h3>
-<%=session.getAttribute("name")%>,»¶Ó­µÇÂ¼£¡
+<h2>µÇÂ¼Ò³Ãæ</h2>
+<%
+if(request.getAttribute("tip") != null)
+{
+	out.println("<font color='red'>" 
+		+ request.getAttribute("tip")
+		+ "</font>");
+}
+%>
+<form method="post" action="proLogin.jsp">
+ÓÃ»§Ãû:<input type="text" name="name"/><br/>
+<input type="submit" value="µÇÂ¼"/>
+</form>
 </body>
 </html>

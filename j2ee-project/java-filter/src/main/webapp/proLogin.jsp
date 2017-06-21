@@ -3,11 +3,15 @@
 	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<title> 欢迎页面 </title>
+	<title> 登录页面 </title>
 	<meta name="website" content="http://blog.longjiazuo.com/" />
 </head>
 <body>
-<h3>欢迎登录</h3>
-<%=session.getAttribute("name")%>,欢迎登录！
+<h2>登录页面</h2>
+<%
+session.setAttribute("user" 
+	, request.getParameter("name"));
+%>
+登录成功，可以访问该应用的其他页面
 </body>
 </html>
