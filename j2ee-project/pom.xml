@@ -17,11 +17,11 @@
 	<modules>
 		<module>java-servlet</module>
 		<module>java-filter</module>
+		<module>java-listener</module>
 		<module>java-cookie</module>
 		<module>java-session</module>
 		<module>java-request</module>
-		<module>java-listener</module>
-		<module>java-servlet3</module>
 		<module>java-application</module>
+		<module>java-servlet3</module>
 	</modules>
 </project>
