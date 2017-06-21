@@ -3,29 +3,29 @@
 	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	version="3.0">
-	<!-- 閰嶇疆绗竴涓弬鏁帮細driver -->
+	<!-- 配置第一个参数：driver -->
 	<context-param>
 		<param-name>driver</param-name>
 		<param-value>com.mysql.jdbc.Driver</param-value>
 	</context-param>
-	<!-- 閰嶇疆绗簩涓弬鏁帮細url -->
+	<!-- 配置第二个参数：url -->
 	<context-param>
 		<param-name>url</param-name>
 		<param-value>jdbc:mysql://localhost:3306/test</param-value>
 	</context-param>
-	<!-- 閰嶇疆绗笁涓弬鏁帮細user -->
+	<!-- 配置第三个参数：user -->
 	<context-param>
 		<param-name>user</param-name>
 		<param-value>root</param-value>
 	</context-param>
-	<!-- 閰嶇疆绗洓涓弬鏁帮細pass -->
+	<!-- 配置第四个参数：pass -->
 	<context-param>
 		<param-name>pass</param-name>
 		<param-value>123456</param-value>
 	</context-param>
 
 	<listener>
-		<!-- 鎸囧畾Listener鐨勫疄鐜扮被 -->
+		<!-- 指定Listener的实现类 -->
 		<listener-class>org.light4j.listener.servletContext.MyServletContextListener</listener-class>
 	</listener>
 
