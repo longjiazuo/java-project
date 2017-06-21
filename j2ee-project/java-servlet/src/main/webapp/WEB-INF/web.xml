@@ -4,60 +4,60 @@
 	http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
 	version="3.0">
 
-	<!-- ÅäÖÃServletµÄÃû×Ö -->
+	<!-- é…ç½®Servletçš„åå­— -->
 	<servlet>
-		<!-- Ö¸¶¨ServletµÄÃû×Ö£¬ Ïàµ±ÓÚÖ¸¶¨@WebServletµÄnameÊôÐÔ -->
+		<!-- æŒ‡å®šServletçš„åå­—ï¼Œ ç›¸å½“äºŽæŒ‡å®š@WebServletçš„nameå±žæ€§ -->
 		<servlet-name>firstServlet</servlet-name>
-		<!-- Ö¸¶¨ServletµÄÊµÏÖÀà -->
+		<!-- æŒ‡å®šServletçš„å®žçŽ°ç±» -->
 		<servlet-class>org.light4j.servlet.introduction.FirstServlet</servlet-class>
 	</servlet>
-	<!-- ÅäÖÃServletµÄURL -->
+	<!-- é…ç½®Servletçš„URL -->
 	<servlet-mapping>
-		<!-- Ö¸¶¨ServletµÄÃû×Ö -->
+		<!-- æŒ‡å®šServletçš„åå­— -->
 		<servlet-name>firstServlet</servlet-name>
-		<!-- Ö¸¶¨ServletÓ³ÉäµÄURLµØÖ·£¬ Ïàµ±ÓÚÖ¸¶¨@WebServletµÄurlPatternsÊôÐÔ -->
+		<!-- æŒ‡å®šServletæ˜ å°„çš„URLåœ°å€ï¼Œ ç›¸å½“äºŽæŒ‡å®š@WebServletçš„urlPatternså±žæ€§ -->
 		<url-pattern>/aa</url-pattern>
 	</servlet-mapping>
 
 	<servlet>
-		<!-- ServletÃû -->
+		<!-- Servletå -->
 		<servlet-name>timerServlet</servlet-name>
-		<!-- ServletµÄÊµÏÖÀà -->
+		<!-- Servletçš„å®žçŽ°ç±» -->
 		<servlet-class>org.light4j.servlet.lifecycle.TimerServlet</servlet-class>
-		<!-- ÅäÖÃÓ¦ÓÃÆô¶¯Ê±£¬´´½¨ServletÊµÀý £¬Ïàµ±ÓÚÖ¸¶¨@WebServletµÄloadOnStartupÊôÐÔ -->
+		<!-- é…ç½®åº”ç”¨å¯åŠ¨æ—¶ï¼Œåˆ›å»ºServletå®žä¾‹ ï¼Œç›¸å½“äºŽæŒ‡å®š@WebServletçš„loadOnStartupå±žæ€§ -->
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 
 	<servlet>
-		<!-- ÅäÖÃServletÃû -->
+		<!-- é…ç½®Servletå -->
 		<servlet-name>testServlet</servlet-name>
-		<!-- Ö¸¶¨ServletµÄÊµÏÖÀà -->
+		<!-- æŒ‡å®šServletçš„å®žçŽ°ç±» -->
 		<servlet-class>org.light4j.servlet.parameterConfig.TestServlet</servlet-class>
-		<!-- ÅäÖÃServletµÄ³õÊ¼»¯²ÎÊý£ºdriver -->
+		<!-- é…ç½®Servletçš„åˆå§‹åŒ–å‚æ•°ï¼šdriver -->
 		<init-param>
 			<param-name>driver</param-name>
 			<param-value>com.mysql.cj.jdbc.Driver</param-value>
 		</init-param>
-		<!-- ÅäÖÃServletµÄ³õÊ¼»¯²ÎÊý£ºurl -->
+		<!-- é…ç½®Servletçš„åˆå§‹åŒ–å‚æ•°ï¼šurl -->
 		<init-param>
 			<param-name>url</param-name>
 			<param-value>jdbc:mysql://localhost:3306/test</param-value>
 		</init-param>
-		<!-- ÅäÖÃServletµÄ³õÊ¼»¯²ÎÊý£ºuser -->
+		<!-- é…ç½®Servletçš„åˆå§‹åŒ–å‚æ•°ï¼šuser -->
 		<init-param>
 			<param-name>user</param-name>
 			<param-value>root</param-value>
 		</init-param>
-		<!-- ÅäÖÃServletµÄ³õÊ¼»¯²ÎÊý£ºpass -->
+		<!-- é…ç½®Servletçš„åˆå§‹åŒ–å‚æ•°ï¼špass -->
 		<init-param>
 			<param-name>pass</param-name>
 			<param-value>123456</param-value>
 		</init-param>
 	</servlet>
 	<servlet-mapping>
-		<!-- È·¶¨ServletÃû -->
+		<!-- ç¡®å®šServletå -->
 		<servlet-name>testServlet</servlet-name>
-		<!-- ÅäÖÃServletÓ³ÉäµÄURL -->
+		<!-- é…ç½®Servletæ˜ å°„çš„URL -->
 		<url-pattern>/testServlet</url-pattern>
 	</servlet-mapping>
 

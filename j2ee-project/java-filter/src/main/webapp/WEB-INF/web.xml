@@ -6,30 +6,30 @@
 	version="3.0">
 
 
-	<!-- ¶¨ÒåFilter -->
+	<!-- å®šä¹‰Filter -->
 	<filter>
-		<!-- FilterµÄÃû×Ö£¬Ïàµ±ÓÚÖ¸¶¨@WebFilter
-			µÄfilterNameÊôÐÔ -->
+		<!-- Filterçš„åå­—ï¼Œç›¸å½“äºŽæŒ‡å®š@WebFilter
+			çš„filterNameå±žæ€§ -->
 		<filter-name>log</filter-name>
-		<!-- FilterµÄÊµÏÖÀà -->
+		<!-- Filterçš„å®žçŽ°ç±» -->
 		<filter-class>org.light4j.filter.LogFilter</filter-class> 
 	</filter>
-	<!-- ¶¨ÒåFilterÀ¹½ØµÄURLµØÖ· -->
+	<!-- å®šä¹‰Filteræ‹¦æˆªçš„URLåœ°å€ -->
 	<filter-mapping>
-		<!-- FilterµÄÃû×Ö -->
+		<!-- Filterçš„åå­— -->
 		<filter-name>log</filter-name>
-		<!-- Filter¸ºÔðÀ¹½ØµÄURL£¬Ïàµ±ÓÚÖ¸¶¨@WebFilter
-			µÄurlPatternsÊôÐÔ -->
+		<!-- Filterè´Ÿè´£æ‹¦æˆªçš„URLï¼Œç›¸å½“äºŽæŒ‡å®š@WebFilter
+			çš„urlPatternså±žæ€§ -->
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 
-	<!-- ¶¨ÒåFilter -->
+	<!-- å®šä¹‰Filter -->
 	<filter>
-		<!-- FilterµÄÃû×Ö -->
+		<!-- Filterçš„åå­— -->
 		<filter-name>authority</filter-name>
-		<!-- FilterµÄÊµÏÖÀà -->
+		<!-- Filterçš„å®žçŽ°ç±» -->
 		<filter-class>org.light4j.filter.AuthorityFilter</filter-class>
-		<!-- ÏÂÃæÈý¸öinit-paramÔªËØÅäÖÃÁËÈý¸ö²ÎÊý -->
+		<!-- ä¸‹é¢ä¸‰ä¸ªinit-paramå…ƒç´ é…ç½®äº†ä¸‰ä¸ªå‚æ•° -->
 		<init-param>
 			<param-name>encoding</param-name>
 			<param-value>UTF-8</param-value>
@@ -43,11 +43,11 @@
 			<param-value>/proLogin.jsp</param-value>
 		</init-param>
 	</filter>
-	<!-- ¶¨ÒåFilterÀ¹½ØµÄURLµØÖ· -->
+	<!-- å®šä¹‰Filteræ‹¦æˆªçš„URLåœ°å€ -->
 	<filter-mapping>
-		<!-- FilterµÄÃû×Ö -->
+		<!-- Filterçš„åå­— -->
 		<filter-name>authority</filter-name>
-		<!-- Filter¸ºÔðÀ¹½ØµÄURL -->
+		<!-- Filterè´Ÿè´£æ‹¦æˆªçš„URL -->
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 
