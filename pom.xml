@@ -11,5 +11,6 @@
     <module>distributed-project</module>
     <module>j2ee-project</module>
     <module>consistency-hash</module>
+    <module>load-balance</module>
   </modules>
 </project>
