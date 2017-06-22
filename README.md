@@ -1,2 +1,2 @@
-# j2se-project
-j2se-project
+# java-project
+java-project
