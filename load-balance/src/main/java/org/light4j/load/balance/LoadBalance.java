@@ -33,6 +33,7 @@ public class LoadBalance {
 
 	// 记录当前访问的服务器编号
 	private static Integer pos = 0;
+	// 模拟IP列表
 	static {
 		// 权重为1的ip
 		serverWeight.put("192.016.1.100", 1);
@@ -180,7 +181,7 @@ public class LoadBalance {
 	}
 
 	public static void main(String[] args) {
-		for (int i= 0; i < 20; i++) {
+		for (int i = 0; i < 20; i++) {
 			System.out.println(getServerByRoundRobin());
 		}
 	}
