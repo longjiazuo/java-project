@@ -2,8 +2,8 @@
 日常学习和工作中的代码小案例总结。<br>
 
 #### 一致性哈希算法的代码实现<br>
-Github项目地址：<a href="https://github.com/longjiazuo/java-project/tree/master/consistency-hash" target="_blank">consistency-hash <br>
-码云项目地址：<a href="http://git.oschina.net/longshiy/spring4.x-project" target="_blank">consistency-hash <br>
+Github项目地址：<a href="https://github.com/longjiazuo/java-project/tree/master/consistency-hash" target="_blank">consistency-hash<br>
+码云项目地址：<a href="http://git.oschina.net/longshiy/java-project/tree/master/consistency-hash" target="_blank">consistency-hash <br>
 
 #### 常用的负载均衡算法
 Github项目地址：<a href="https://github.com/longjiazuo/java-project/tree/master/load-balance" target="_blank">load-balance</a><br>
