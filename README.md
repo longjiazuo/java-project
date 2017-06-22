@@ -1,5 +1,5 @@
 # java-project
-日常学习和工作中的代码小案例总结。<br>
+日常学习和工作中的java代码小案例总结。<br>
 
 #### 一致性哈希算法的代码实现<br>
 Github项目地址：<a href="https://github.com/longjiazuo/java-project/tree/master/consistency-hash" target="_blank">consistency-hash<br>
