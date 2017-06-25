@@ -1,4 +1,4 @@
-package org.light4j.net.basic;
+package org.light4j.net.URL;
 
 public class MultiThreadDown {
 	public static void main(String[] args) throws Exception {
