@@ -1,4 +1,4 @@
-package org.light4j.net.basic;
+package org.light4j.net.URL;
 
 import java.io.*;
 import java.net.*;

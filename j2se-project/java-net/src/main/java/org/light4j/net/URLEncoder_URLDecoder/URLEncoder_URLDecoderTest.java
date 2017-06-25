@@ -1,4 +1,4 @@
-package org.light4j.net.basic;
+package org.light4j.net.URLEncoder_URLDecoder;
 
 import java.net.URLDecoder;
 import java.net.URLEncoder;
@@ -26,14 +26,14 @@ import java.net.URLEncoder;
  * @author longjiazuo
  * @date 2017年4月8日 下午9:34:22
  */
-public class URLDecoderTest {
+public class URLEncoder_URLDecoderTest {
 	public static void main(String[] args) throws Exception {
 		// 将application/x-www-form-urlencoded字符串转换成普通字符串
-		String keyWord = URLDecoder.decode("%B7%E8%BF%F1java%BD%B2%D2%E5",
+		String keyWord = URLDecoder.decode("%C8%CB%C9%FA%C9%E8%BC%C6%CA%A6",
 				"GBK");
 		System.out.println(keyWord);
 		// 将普通字符串转换成application/x-www-form-urlencoded
-		String urlStr = URLEncoder.encode("疯狂java讲义", "GBK");
+		String urlStr = URLEncoder.encode("人生设计师", "GBK");
 		System.out.println(urlStr);
 	}
 }
