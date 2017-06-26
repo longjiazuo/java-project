@@ -1,12 +1,10 @@
-package org.light4j.net.tcp.socket.senior.server;
+package org.light4j.net.tcp.bio.senior;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.PrintStream;
 import java.net.Socket;
-
-import org.light4j.net.tcp.socket.senior.CrazyitProtocol;
 
 public class ServerThread extends Thread {
 	private Socket socket;

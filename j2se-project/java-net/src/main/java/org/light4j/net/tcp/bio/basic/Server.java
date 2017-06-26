@@ -1,4 +1,4 @@
-package org.light4j.net.tcp.socket.basic;
+package org.light4j.net.tcp.bio.basic;
 
 import java.io.PrintStream;
 import java.net.ServerSocket;

@@ -1,4 +1,4 @@
-package org.light4j.net.tcp.socket.senior.client;
+package org.light4j.net.tcp.bio.senior;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -8,8 +8,6 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 
 import javax.swing.JOptionPane;
-
-import org.light4j.net.tcp.socket.senior.CrazyitProtocol;
 
 public class Client {
 	private static final int SERVER_PORT = 30000;

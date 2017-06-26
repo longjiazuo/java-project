@@ -1,4 +1,4 @@
-package org.light4j.net.tcp.socket.senior;
+package org.light4j.net.tcp.bio.senior;
 
 import java.util.Collections;
 import java.util.HashMap;

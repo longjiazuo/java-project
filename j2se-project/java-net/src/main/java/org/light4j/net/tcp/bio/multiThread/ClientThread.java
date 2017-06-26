@@ -1,4 +1,4 @@
-package org.light4j.net.tcp.socket.multiThread.client;
+package org.light4j.net.tcp.bio.multiThread;
 
 import java.io.BufferedReader;
 import java.io.IOException;
