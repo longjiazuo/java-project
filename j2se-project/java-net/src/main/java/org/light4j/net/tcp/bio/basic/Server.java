@@ -5,10 +5,13 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class Server {
+	// 端口
+	static final int PORT = 30000;
+
 	public static void main(String[] args) throws Exception {
 		// 创建一个ServerSocket用于监听客户端Socket的连接请求
 		@SuppressWarnings("resource")
-		ServerSocket ss = new ServerSocket(30000);
+		ServerSocket ss = new ServerSocket(PORT);
 		// 采用循环不断地接收来自客户端的请求
 		while (true) {
 			// 每当接收到客户端Socket的请求时,服务器端也对应产生一个Socket
