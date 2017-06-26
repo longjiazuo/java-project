@@ -1,4 +1,4 @@
-package org.light4j.net.tcp.socket.senior.client;
+package org.light4j.net.tcp.bio.senior;
 
 import java.io.BufferedReader;
 import java.io.IOException;

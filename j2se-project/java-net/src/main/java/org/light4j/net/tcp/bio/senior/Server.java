@@ -1,11 +1,9 @@
-package org.light4j.net.tcp.socket.senior.server;
+package org.light4j.net.tcp.bio.senior;
 
 import java.io.IOException;
 import java.io.PrintStream;
 import java.net.ServerSocket;
 import java.net.Socket;
-
-import org.light4j.net.tcp.socket.senior.CrazyitMap;
 
 public class Server {
 	private static final int SERVER_PORT = 30000;

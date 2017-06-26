@@ -1,4 +1,4 @@
-package org.light4j.net.tcp.socket.senior;
+package org.light4j.net.tcp.bio.senior;
 
 public class CrazyitProtocol {
 	// 定义协议字符串的长度
