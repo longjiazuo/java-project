@@ -8,7 +8,6 @@ import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
 import java.nio.charset.Charset;
 import java.util.Scanner;
-import java.util.Set;
 
 public class NClient {
 	// 定义检测SocketChannel的Selector对象
@@ -22,7 +21,7 @@ public class NClient {
 
 	public void init() throws IOException {
 		selector = Selector.open();
-		InetSocketAddress isa = new InetSocketAddress("192.168.0.101", PORT);
+		InetSocketAddress isa = new InetSocketAddress("127.0.0.1", PORT);
 		// 调用open()静态方法创建连接到指定主机的SocketChannel
 		sc = SocketChannel.open(isa);
 		// 设置该SocketChannel以非阻塞方式工作
