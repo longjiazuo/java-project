@@ -9,7 +9,7 @@ import java.nio.channels.SocketChannel;
 import java.nio.charset.Charset;
 import java.util.Scanner;
 
-public class NClient {
+public class NIOClient {
 	// 定义检测SocketChannel的Selector对象
 	private Selector selector = null;
 	// 端口
@@ -74,6 +74,6 @@ public class NClient {
 	}
 
 	public static void main(String[] args) throws IOException {
-		new NClient().init();
+		new NIOClient().init();
 	}
 }

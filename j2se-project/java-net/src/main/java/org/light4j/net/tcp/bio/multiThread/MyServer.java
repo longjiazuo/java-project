@@ -8,10 +8,12 @@ import java.util.ArrayList;
 public class MyServer {
 	// 定义保存所有Socket的ArrayList
 	public static ArrayList<Socket> socketList = new ArrayList<>();
+	// 端口
+	static final int PORT = 30000;
 
 	public static void main(String[] args) throws IOException {
 		@SuppressWarnings("resource")
-		ServerSocket ss = new ServerSocket(30000);
+		ServerSocket ss = new ServerSocket(PORT);
 		while (true) {
 			// 此行代码会阻塞,将一直等待别人的连接
 			Socket s = ss.accept();

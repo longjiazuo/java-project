@@ -10,7 +10,7 @@ import java.nio.channels.ServerSocketChannel;
 import java.nio.channels.SocketChannel;
 import java.nio.charset.Charset;
 
-public class NServer {
+public class NIOServer {
 	// 用于检测所有Channel状态的Selector
 	private Selector selector = null;
 	// 监听端口
@@ -94,6 +94,6 @@ public class NServer {
 	}
 	
 	public static void main(String[] args) throws IOException {
-		new NServer().init();
+		new NIOServer().init();
 	}
 }

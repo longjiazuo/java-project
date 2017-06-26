@@ -15,8 +15,11 @@ import java.net.Socket;
  * @date 2017年4月9日 下午7:56:24
  */
 public class MyClient {
+	// 端口
+	static final int PORT = 30000;
+
 	public static void main(String[] args) throws Exception {
-		Socket s = new Socket("192.168.0.101", 30000);
+		Socket s = new Socket("127.0.0.1", PORT);
 		// 客户端启动ClientThread线程不断地读取来自服务器的数据
 		new Thread(new ClientThread(s)).start();
 		// 获取该Socket对应的输出流

@@ -5,8 +5,11 @@ import java.io.InputStreamReader;
 import java.net.Socket;
 
 public class Client {
+	// 端口
+	static final int PORT = 30000;
+
 	public static void main(String[] args) throws Exception {
-		Socket socket = new Socket("127.0.0.1", 30000);
+		Socket socket = new Socket("127.0.0.1", PORT);
 		// 将Socket对应的输入流包装成BufferedReader
 		BufferedReader br = new BufferedReader(new InputStreamReader(
 				socket.getInputStream()));
