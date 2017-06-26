@@ -8,7 +8,6 @@ import java.nio.channels.Selector;
 import java.nio.channels.SocketChannel;
 import java.nio.charset.Charset;
 import java.util.Scanner;
-import java.util.Set;
 
 public class NClient {
 	// 定义检测SocketChannel的Selector对象
