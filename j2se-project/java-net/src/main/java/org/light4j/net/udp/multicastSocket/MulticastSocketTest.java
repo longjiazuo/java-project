@@ -4,6 +4,12 @@ import java.net.*;
 import java.io.*;
 import java.util.*;
 
+/**
+ * 多点广播通信
+ * 
+ * @author longjiazuo
+ * 
+ */
 // 让该类实现Runnable接口，该类的实例可作为线程的target
 public class MulticastSocketTest implements Runnable {
 	// 使用常量作为本程序的多点广播IP地址
