@@ -28,6 +28,8 @@ public class AIOClient {
 		jp.add(sendBn);
 		// 发送消息的Action,Action是ActionListener的子接口
 		Action sendAction = new AbstractAction() {
+			private static final long serialVersionUID = 1L;
+
 			public void actionPerformed(ActionEvent e) {
 				String content = jtf.getText();
 				if (content.trim().length() > 0) {
