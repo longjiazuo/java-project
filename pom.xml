@@ -12,5 +12,6 @@
     <module>j2ee-project</module>
     <module>consistency-hash</module>
     <module>load-balance</module>
+    <module>netty-project</module>
   </modules>
 </project>
