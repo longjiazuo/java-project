@@ -38,7 +38,6 @@ public class EchoClient {
 		//设置服务器的InetSocketAddress;
 		b.remoteAddress(new InetSocketAddress(host, port));
 		b.handler(new ChannelInitializer<SocketChannel>() {
-
 			@Override
 			protected void initChannel(SocketChannel ch) throws Exception {
 				//在创建Channel时，向ChannelPipeline中添加一个EchoClientHandler实例
