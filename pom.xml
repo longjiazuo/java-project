@@ -13,5 +13,6 @@
     <module>consistency-hash</module>
     <module>load-balance</module>
     <module>netty-project</module>
+    <module>concurrency-project</module>
   </modules>
 </project>
