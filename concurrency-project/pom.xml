@@ -15,5 +15,6 @@
 	</properties>
   <modules>
     <module>concurrency-chapter1</module>
+    <module>concurrency-chapter2</module>
   </modules>
 </project>
