@@ -152,7 +152,7 @@ public class Sort {
 					min = j;
 				}
 			}
-			if (i != min) {
+			if (i != min) { 
 				int temp = array[min];
 				array[min] = array[i];
 				array[i] = temp;
