@@ -10,7 +10,8 @@ public class Sort {
 		// shellSort(array, 0, array.length - 1);
 		// bubbleSort(array);
 		// quickSort(array, 0, array.length - 1);
-		selectSort(array);
+		// selectSort(array);
+		heapSort(array);
 		print(array);
 	}
 
@@ -152,7 +153,7 @@ public class Sort {
 					min = j;
 				}
 			}
-			if (i != min) { 
+			if (i != min) {
 				int temp = array[min];
 				array[min] = array[i];
 				array[i] = temp;
@@ -166,7 +167,44 @@ public class Sort {
 	 * @param array
 	 */
 	public static void heapSort(int[] array) {
+		int n = array.length;
+		for (int j = n / 2 - 1; j >= 0; j--) {
+			sift(array, j, n - 1);
+		}
 
+		for (int j = n - 1; j > 0; j--) {
+			int temp = array[j];
+			array[j] = array[0];
+			array[0] = temp;
+			sift(array, 0, j - 1);
+		}
+	}
+
+	/**
+	 * 构建最小堆或者最大堆
+	 * 
+	 * @param array
+	 * @param low
+	 * @param high
+	 */
+	private static void sift(int[] array, int low, int high) {
+		int i = low;// 子树的根
+		int j = 2 * i + 1;// 子树的左孩子节点
+		int temp = array[i];// 获得第i个元素的值
+		while (j <= high) {
+			if (j < high && array[j] < array[j + 1]) {
+				j++;
+			}
+
+			if (temp < array[j]) {
+				array[i] = array[j];
+				i = j;
+				j = 2 * i + 1;
+			} else {
+				j = high + 1;
+			}
+			array[i] = temp;
+		}
 	}
 
 	/**

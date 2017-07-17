@@ -14,15 +14,15 @@ public class HeapSort {
 		print(array);
 	}
 
-	public static void sift(int[] array, int low, int high) {
+	private static void sift(int[] array, int low, int high) {
 		int i = low;// 子树的根
 		int j = 2 * i + 1;// 子树的左孩子节点
 		int temp = array[i];// 获得第i个元素的值
 		while (j <= high) {// 沿较小值节点向下刷选
-			if (j < high && array[j] < array[j + 1]) {// 数组元素比较(改成>为最小堆)
+			if (j < high && array[j] > array[j + 1]) {// 数组元素比较(改成<为最大堆)
 				j++;// j为左右孩子的较小者
 			}
-			if (temp < array[j]) {// 若父母节点值较小
+			if (temp > array[j]) {// 若父母节点值较小
 				array[i] = array[j];// 孩子节点中的较小值上移
 				i = j;// i,j向下一层
 				j = 2 * i + 1;
