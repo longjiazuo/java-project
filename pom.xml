@@ -14,5 +14,6 @@
     <module>load-balance</module>
     <module>netty-project</module>
     <module>concurrency-project</module>
+    <module>project-template</module>
   </modules>
 </project>
